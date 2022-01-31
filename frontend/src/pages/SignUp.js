@@ -262,7 +262,6 @@ const SignUp = () => {
         <Button className="bg-red-600 hover:bg-red-700 font-semibold py-3 px-5 mr-4 rounded-lg" style={{border: 'none'}} type="submit" id="register">
           Registrarse
         </Button>
-
         <GoogleLogin
           clientId="251218806552-1ecbg0qlvip7gnl9qi6v0f1ifs18junr.apps.googleusercontent.com"
           render={(renderProps) => (
